@@ -10,4 +10,10 @@
 2. startapp 콩순이
    1. python manage.py startapp 콩순이
    2. '콩순이', in INSTALLED_APPS in settings.py
-   3. 
+3. 콩순이/
+   1. models
+      1. Character
+         1. name, feature, created_at, updated_at
+      2. python manage.py makemigraions 콩순이
+      3. python manage.py migrate
+   
