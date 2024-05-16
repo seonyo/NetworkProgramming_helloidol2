@@ -14,6 +14,12 @@
    1. models
       1. Character
          1. name, feature, created_at, updated_at
+         2. `__str__()`
       2. python manage.py makemigraions 콩순이
       3. python manage.py migrate
    
+   2. admin
+      1. python manage.py createsuperuser
+      2. localhost:8000/adming
+      3. Character
+      4. 
