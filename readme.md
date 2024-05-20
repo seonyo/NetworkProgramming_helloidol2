@@ -22,4 +22,9 @@
       1. python manage.py createsuperuser
       2. localhost:8000/adming
       3. Character
-      4. 
+   3. views
+      1. R: CharacterListView
+   4. templates/콩순이/
+      1. character_list.html
+   5. urls
+      1.    콩순이:character_list
